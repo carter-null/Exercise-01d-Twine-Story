@@ -1,164 +1,219 @@
 {
-    "passages": [
-      {
-        "text": "You are standing at the end of a road before a small brick building. Around you is a forest.  A small stream flows out of the building and down a gully.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Road",
-        "pid": "1",
-        "position": {
-          "x": "412",
-          "y": "189"
+  "passages": [
+    {
+      "text": "Cartopia Inn has been the point of origin for many fantastic tales, it sits before an ocean of possibilities. \n\nScholars say its mysterious powers are responsible for the raining of teeth in the Valley, the bubbling of magma in the Forge, and the magnificent light beaming down from the Cartopolis Stairwell. \n\nNobody knows how the Inn came to be. When people settled in the land of Cartopia, hundreds of moons ago, this Inn was found standing on a lonesome hill. The aura its magic generates is tangible to anyone inside its black, wooden frame.\n\nAs you sip down a pint of honey-mead, you can't help but overhear the mysterious, purple-hooded men talking in the corner. \n\nBecoming aware of your gaze, the men make a hasty exit. The shorter of the two bumps into the doorframe on his way out. Just then a white and silver object slips out of his pants and onto the floor, unbeknownst to him. The steady croning of the bard's lute made it impossible for the man to hear the item fall. Before the door closes, you hear one of the men mention meeting back uo after he finshes an errand at the Magma Forge. \n\nWill you investigate the mysterious item or follow the man to Magma Forge?\n\n\n[[Investigate the Mysterious Item->Valley of Falling Teeth]]\n[[Follow the Man->Magma Forge]]\n",
+      "links": [
+        {
+          "name": "Investigate the Mysterious Item",
+          "link": "Valley of Falling Teeth",
+          "pid": "2"
+        },
+        {
+          "name": "Follow the Man",
+          "link": "Magma Forge",
+          "pid": "3"
         }
-      },
-      {
-        "text": "You are in open forest, with a deep valley to one side.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Road]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Forest",
-        "pid": "2",
-        "position": {
-          "x": "187",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are inside a building, a well house for a large spring.\n\n[[Go North->Forest]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Road]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Road",
-            "pid": "1"
-          }
-        ],
-        "name": "Building",
-        "pid": "3",
-        "position": {
-          "x": "337",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You are in a valley in the forest beside a stream tumbling along a rocky bed.\n\n[[Go North->Road]]\n[[Go East->Building]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go East",
-            "link": "Building",
-            "pid": "3"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Valley",
-        "pid": "4",
-        "position": {
-          "x": "487",
-          "y": "339"
-        }
-      },
-      {
-        "text": "You have walked up a hill, still in the forest.  The road slopes back\ndown the other side of the hill.  There is a building in the distance.\n\n[[Go North->Forest]]\n[[Go East->Road]]\n[[Go South->Valley]]\n[[Go West->Hill]]",
-        "links": [
-          {
-            "name": "Go North",
-            "link": "Forest",
-            "pid": "2"
-          },
-          {
-            "name": "Go East",
-            "link": "Road",
-            "pid": "1"
-          },
-          {
-            "name": "Go South",
-            "link": "Valley",
-            "pid": "4"
-          },
-          {
-            "name": "Go West",
-            "link": "Hill",
-            "pid": "5"
-          }
-        ],
-        "name": "Hill",
-        "pid": "5",
-        "position": {
-          "x": "637",
-          "y": "339"
-        }
+      ],
+      "name": "Cartopia Inn",
+      "pid": "1",
+      "position": {
+        "x": "801",
+        "y": "101"
       }
-    ],
-    "name": "Adventure",
-    "startnode": "1",
-    "creator": "Twine",
-    "creator-version": "2.3.7",
-    "ifid": "1A8FFB75-8072-4382-BCAF-ADFA65B09385"
-  }
+    },
+    {
+      "text": "As you draw nearer to the object on the floor its edges begin to radiate a purple shine. You realize it is a key made of teeth, casted in silver. Torches on the wall illuminate the key's silver outlining. The flames dance inside its reflection, moving constantly and not moving at all. \n\nPicking up the key, you realize it is heavier than you thought, and of remarkable craftsmenship. Its handle is a silver troll skull, complete with the long distinctive teeth of a troll. Branching out from the handle, the arm of the key was composed of four lines of troll teeth, one for each side, cemented with silver. \n\nYou would recognize those distincitive, pointy teeth from anywhere; you make your way straight to the Valley of Teeth. \n\nFollowing a road from the Inn, you arrive where the cliffs part in the Earth. \n\nThe Valley of Falling Teeth is peppered with trolls of all variety: magma trolls, ice trolls, earth trolls, and cave trolls make their home here. The trolls in Cartopia are animalistic. They cannot read, they cannot write, and if they have a language it is yet to be understood. Their eyes burn with a hot purple glow.\n\nThe Valley gets its name from its frequent teeth showers. Every sunrise is marked with the unexplainable raining of troll teeth from the heavens. Perhaps communication with the trolls could explain this phenomenon, but man and troll have long held a violent feud. \n\nUpon arrival the key begins vibrating with a violent ferocity, as the purple light intensifies. You set up camp at the edge of the Valley so that you may await the men's reunion. The key seems to vibrate more furiously the closer you get to the caves in the East. \n\nWill you explore the Caves or wait for the men?\n\n[[Explore the Caves->Eastern Caves]]\n[[Wait for the Men->Secret Meeting1]]",
+      "links": [
+        {
+          "name": "Explore the Caves",
+          "link": "Eastern Caves",
+          "pid": "5"
+        },
+        {
+          "name": "Wait for the Men",
+          "link": "Secret Meeting1",
+          "pid": "8"
+        }
+      ],
+      "name": "Valley of Falling Teeth",
+      "pid": "2",
+      "position": {
+        "x": "551",
+        "y": "201"
+      }
+    },
+    {
+      "text": "Tossing the tavern-keeper a sack of coins, you jump to your feet and make a quiet dash outside. Cartopia's nightfall provides you with the shade you require to remain undetected. \n\nUnder the diamond-polkadotted sky you follow behind while they walk from the Inn. Not a word is exchaned between the men as they marched together, until the taller man announces his departure. \n\n\"Remember what I told you about the keys!\" he demanded to the shorter, hooded figure.\n\n\"Yes, yes... I know...\" replied the other, \"I understand what hangs in the balance.\"\n\nThe taller figure responded \"Very well, brother. We will reunite under the stars in the Valley of Falling Teeth. Soon our work shall be done.\"\n\nThe men part, and you trail behind the tall man as he journeys to Magma Forge. You notice he keeps glancing down at something small in his hand, as if he is checking a list. \n\nWhen you arrive at Magma Forge, you are once again stunned by its magnificence. Much like Cartopia Inn, the origins of Magma Forge are a mystery indeed. The forge bubbles magma like a hole in the Earth, surrounded by buildings clad in expertly crafted metal pieces for sale. Its apparent permanence is often considered when scholars suggest its relation to Cartopia Inn. \n\nBeside the forge lies the blacksmith's main workshop. King murdering blades, troll slaying axes, and bridge building hammers of only the strongest variety have all been forged here. Such a forge functions not as a mere producer of fine tools, but as an angel blessing masterpieces, none of which even come close to utilizing the forge to its real potential. \n\nThe hooded man approaches a small hut behind the blacksmith's workshop and knocks three times. Behind the door you hear a strange, loud thumping sound marching to a specific rhythm, leaving a second long pause between each thump. Each thump progresses in volume until, finally, the rusty hinges of the door squeal in response to the door violently thrashing open. \n\nAt the door stood a seven foot tall red cave troll, her eyes glowing blood red. A silver collar clung tightly around her neck, bearing a silver medallion which prominently exhibited two troll teeth, from the Valley no doubt. \n\nShe didn't move like a wild troll, she was heavy and slow in her kinesics. Her back slowly pressed against the wall, as she reached her arm out to beckon in the hooded man. She uttered one word: \"Master.\"\n\nTrolls to not speak. They are animals. Startled by this revelation, by this impossible scene playing out before you, you understand now that the hooded man is more than just a man. He is a mage.\n\nHe hurries through the entrance so quickly he doesn't secure it shut, and the cave troll ambles down the stairs behind him. You follow. The stairs bring you to a laboratory full of half-disected trolls. The mage orders the cave troll to sit in the corner and wait for his next direction, she obeys. \n\nHe abruptly continues carving into the head of one of the poor, deceased, trolls. After casting a spell on the trolls head, causing it to glow green and hum in a sharp low pitch, the mage reached into its mouth and begins slowly pulling something out. Whatever it was, it slips and falls deeper into the poor creature. He will surely walk up the stairs and leave when he is finished fishing it out, to reunite with the other hooded man in the Valley of Falling Teeth. \n\n\nWill you break the medallion binding the cave troll or will you wait to see what the mage reveals?\n\n\n[[Break the Medallion->Troll Emancipation]]\n[[Watch the Mage->Secret Meeting2]]",
+      "links": [
+        {
+          "name": "Break the Medallion",
+          "link": "Troll Emancipation",
+          "pid": "7"
+        },
+        {
+          "name": "Watch the Mage",
+          "link": "Secret Meeting2",
+          "pid": "6"
+        }
+      ],
+      "name": "Magma Forge",
+      "pid": "3",
+      "position": {
+        "x": "1051",
+        "y": "200"
+      }
+    },
+    {
+      "text": "Double-click this passage to edit it.",
+      "name": "Cartopolis Stairwell",
+      "pid": "4",
+      "position": {
+        "x": "852",
+        "y": "901"
+      }
+    },
+    {
+      "text": "With every step you take toward the caves in the east, the key glares brighter and brighter. The vibrating turns to jittering when you find yourself before a sheet of rock in the side of a soaring, orange cliff face. \n\nSomething isn't right, the winds are inperceptible. You hold your key up to the wall and it crumbles to dust, revealing a hidden passage deep into the ground. A ladder manifests before you, and you lean forward to gaze down the hole. \n\nDeep voices, the likes of which you have never known, reverberate through the stone and into your eardrum. The bass of their voices is unrelenting in its vibrations, whoever is speaking has a very low pitch voice. \n\nYou fumble down the wooden steps, illuminated by your silver key. At the bottom you are greeted with a sight you never dreamed possible. Hundereds of trolls, all looking straight at you, heavily armed, each and every one of them wearing some sort of matching green armor. It becomes clear that you are in some sort of underground system of tunnels, the mouth of which you just entered. At the entrance, visible to everyone, you feel naked. \n\n\nThese trolls are not like the trolls you are familiar with. It is clear from the many maps on the walls of the cave that they are adept in both reading and writing. They seem to have a languge, consisting at least of symbols which translate to sound when properly understood. Not knowing what to do, you are frozen.\n\nOne of the trolls walks gingerly to where you are standing, and greets you in plain English. \"I understand that you may be alarmed...\"\n\n[[Ascend->Cartopolis Stairwell]]",
+      "links": [
+        {
+          "name": "Ascend",
+          "link": "Cartopolis Stairwell",
+          "pid": "4"
+        }
+      ],
+      "name": "Eastern Caves",
+      "pid": "5",
+      "position": {
+        "x": "401",
+        "y": "401"
+      }
+    },
+    {
+      "text": "You strain yourself watching the mage as he reaches his entire arm into the mouth of the deceased troll. His arms emerged, covered in a cold, transparent slime. Some sort of gold troll skull appeared in the mage's hands. A smile creeped along his grey face, accompanied by a single tear, then laughter. \n\n\"Do you see this, swine?\" he chortled at the red cave-troll. \n\nShe dutifly replied, \"Yes, master.\" Her voice was an octive deeper than his, and many eons older. \n\n\"Tonight you trolls will get what you deserve, an event centuries in the making!\" the pride in his voice was tangible. \"Much like your once useless forge, and much like your once useless inn, tonight your useless valley will at last find its purpose. For far too long we have allowed your kind to pollute our land!\"\n\n\"This was once our land, master.\" Her words cut through him like a thousand knives. The idea of being entirely dependant on the everything trolls created was a sour truth for the mage to swallow. \n\nIn a fit of rage he screamed \"Silence!\" He continued \"It is now our land. It has been our land ever since we mages took the inn and used it to curse you all to dog like intelligence. You being the only exception, of course, because you are such a useful pawn. We shall end your purid falling of teeth, which stunts any sort of civilized agricultural progress we could ever hope to achive here in Cartopia! Do you understand how hard it is to cultivate enough crops for a people when it is raining damned troll teeth?\" \n\n\"But master, we cannot surive without the falling of teeth. To us trolls, it is not only sacred, but it is what binds us to this realm.\" Her voice suggested that she knew what he was going to say next.\n\nThe mage stood direclty before the cave troll's ancient face. \"You are damned to be the last of your people, mark my words troll.\"\n\nA clink sound echoed when the mage placed the golden troll skull into the handle of a golden key, lined with troll teeth. Just then its edges began to glow a harsh, violent red. Stuffing the magical key into his robe pocket, the mage starts upstairs again. Before making his ascent he orders the cave troll into a box on the floor, immeidately beside the corpse he was working on. You shuffle into a nook in the hut's wall and wait for the mage to pass. \n\nAfter he passes, you take another moment to examine the horrifying laboratory. Its walls bear a flag you've never seen before, a white background with innumerable black dots moving in a downward motion. You recognize the scene, it is the falling of teeth. \n\nYou notice that the cave troll has been studying you, as you study its flag. \"Take it\" she said. \"Preserve the memory of my people, you must.\" You nod your head, picking up the flag before ripping the medallion off of her neck. \"Thank you, you have shown a kindness today us trolls do not know from your people.\"\n\nYou exit, once again hiding in the bushes so as to watch the mage undetected. As planned, the mage marches to the the Valley of Falling Teeth with you trailing closely behind him. \n\nYou arrive at the Valley of Falling Teeth; upon arrival the mage's key begins vibrating with a violent ferocity, as its red light intensifies. \n\nThe mage reunites with the shorter man and presents the golden key. Suddenly the sky becomes furious with a golden and silvery storm, hurling murderous red and purple lightning bolts down into the valley. A beam of harsh magenta glowers down onto the caves in the east, exposing a hole in the rocks.\n\nWhen the men arrive at the hole in the cliff, they are greeted by a deluge of trolls wearing olive green helmets. These trolls are unlike any wild trolls you have ever seen before. These trolls, like the troll from the forge, speak. They seem to have organized an attack anticipating the destruction of their people. It is clear that thier magical armor somehow subverts the curse which has plagued their people since the arrival of mages in Cartopia, and indeed all human magic.\n\nThe mages dash away in a frenzy, the trolls following close behind. You watch the mages begin to panic, this is not what they planned. Frantically, they search thier pockets for something, you're not sure what. \n\nSuddenly it dawns on you... the silver object from Cartopia Inn. Perhaps it too was a key.\n\nAt once the mages spot you from across the valley, they head straight for you almost instinctively. Everyone present knows that if something is not done soon the hundereds of surrounding trolls will devour all three of you. They descend like inverted flames, armed with spears and hatchets. It was clear by the mages' robes that they were not battle mages, but instead something akin to scientists. They would not be able to repel the assault. You recall the troll flag you retrieved from Magma Forge. The trolls haven't seen this flag in ages, it could prove a powerful tool in deceving them. \n\nWill you raise the flag, saving yourself and the mages at the trolls' expense, or will you keep the flag hidden and ensure death to yourself and the genocidal mages?\n\n[[Raise the Flag->Save Mankind2]]\n[[Hide the Flag->Save Tollkind2]]",
+      "links": [
+        {
+          "name": "Raise the Flag",
+          "link": "Save Mankind2",
+          "pid": "11"
+        },
+        {
+          "name": "Hide the Flag",
+          "link": "Save Tollkind2",
+          "pid": "12"
+        }
+      ],
+      "name": "Secret Meeting2",
+      "pid": "6",
+      "position": {
+        "x": "901",
+        "y": "400"
+      }
+    },
+    {
+      "text": "LEARN ABOUT TROLL REVOLT\n\nJOIN TROLLS AT VALLEY OF FALLING TEETH\n\n[[Join the Trolls->Ss]]\n[[Warn the Men->Dd]]\n\n",
+      "links": [
+        {
+          "name": "Join the Trolls",
+          "link": "Ss",
+          "pid": "9"
+        },
+        {
+          "name": "Warn the Men",
+          "link": "Dd",
+          "pid": "10"
+        }
+      ],
+      "name": "Troll Emancipation",
+      "pid": "7",
+      "position": {
+        "x": "1201",
+        "y": "399"
+      }
+    },
+    {
+      "text": "[[Ascend->Cartopolis Stairwell]]",
+      "links": [
+        {
+          "name": "Ascend",
+          "link": "Cartopolis Stairwell",
+          "pid": "4"
+        }
+      ],
+      "name": "Secret Meeting1",
+      "pid": "8",
+      "position": {
+        "x": "700",
+        "y": "400"
+      }
+    },
+    {
+      "text": "[[Ascend->Cartopolis Stairwell]]",
+      "links": [
+        {
+          "name": "Ascend",
+          "link": "Cartopolis Stairwell",
+          "pid": "4"
+        }
+      ],
+      "name": "Ss",
+      "pid": "9",
+      "position": {
+        "x": "1151",
+        "y": "698"
+      }
+    },
+    {
+      "text": "[[Ascend->Cartopolis Stairwell]]",
+      "links": [
+        {
+          "name": "Ascend",
+          "link": "Cartopolis Stairwell",
+          "pid": "4"
+        }
+      ],
+      "name": "Dd",
+      "pid": "10",
+      "position": {
+        "x": "1253",
+        "y": "699"
+      }
+    },
+    {
+      "text": "[[Ascend->Cartopolis Stairwell]]",
+      "links": [
+        {
+          "name": "Ascend",
+          "link": "Cartopolis Stairwell",
+          "pid": "4"
+        }
+      ],
+      "name": "Save Mankind2",
+      "pid": "11",
+      "position": {
+        "x": "851",
+        "y": "700"
+      }
+    },
+    {
+      "text": "[[Ascend->Cartopolis Stairwell]]",
+      "links": [
+        {
+          "name": "Ascend",
+          "link": "Cartopolis Stairwell",
+          "pid": "4"
+        }
+      ],
+      "name": "Save Tollkind2",
+      "pid": "12",
+      "position": {
+        "x": "952",
+        "y": "699"
+      }
+    }
+  ],
+  "name": "The Fall of Cartopolis",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "7CBA0D30-B079-4398-B4A7-3EBABB475C18"
+}
